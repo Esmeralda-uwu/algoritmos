@@ -11,7 +11,23 @@ Algoritmo gg
 			Escribir "fibonaci";
 			
 			
-			
+				Definir n Como Entero;
+	Escribir"introduzca un numero "
+	Leer n;
+	nfibonacci<-0
+	     nnormal<-0
+	        nanterior<-1
+	
+	           Mientras nfibonacci<=n Hacer
+		     Escribir"",nfibonacci
+		nfibonacci=nnormal+nanterior
+		nanterior=nnormal
+		nnormal=nfibonacci
+	FinMientras	
+	si 0<=n
+		escribir"error";
+		
+	FinSi
 			
 			
 			
