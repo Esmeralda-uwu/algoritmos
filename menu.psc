@@ -103,9 +103,9 @@ FinAlgoritmo
 				Segun op2  Hacer
 					1:
 						Escribir"INGRESA EL PRIMER NUMERO"
-						Leer q
+						Leer n1
 						Escribir"INGRESA EL SEGUNDO NUMERO"
-						Leer r
+						Leer n2
 						c1=n1+n2
 						Escribir "EL RESULTADO ES:  ",c1;
 					2:
@@ -281,9 +281,9 @@ FinAlgoritmo
 				Segun op2  Hacer
 					1:
 						Escribir"INGRESA EL PRIMER NUMERO"
-						Leer q
+						Leer n1
 						Escribir"INGRESA EL SEGUNDO NUMERO"
-						Leer r
+						Leer n2
 						c1=n1-n2
 						Escribir "EL RESULTADO ES:  ",c1;
 					2:
@@ -458,9 +458,9 @@ FinAlgoritmo
 			Segun op2  Hacer
 				1:
 					Escribir"INGRESA EL PRIMER NUMERO"
-					Leer q
+					Leer n1
 					Escribir"INGRESA EL SEGUNDO NUMERO"
-					Leer r
+					Leer n2
 					c1=n1*n2
 					Escribir "EL RESULTADO ES:  ",c1;
 				2:
