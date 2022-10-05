@@ -86,8 +86,17 @@ FinAlgoritmo
 			
 			
 		3:
-			escribir"operaciones";
 			
+			Escribir "escoge una operacion"
+		Escribir "1:suma";
+		Escribir "2:resta";
+		Escribir "3:multiplicacion";
+		Escribir "4:division";
+		Escribir "5:potencia";
+		Escribir "6: factorial";
+		leer f;
+		Segun f Hacer
+			1:
 				Definir n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,c1,c2,c3,c4,c5,c6,c7,c8,c9 Como Real;
 				Escribir "cuantos digitos usaras?";
 				Escribir "2 digitos presiona 1";
@@ -804,30 +813,3 @@ FinAlgoritmo
 	De Otro Modo:
 		Escribir "opciones incorrectos";
 Fin Segun
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		De Otro Modo:
-			Escribir "error";
-	Fin Segun
-FinAlgoritmo
