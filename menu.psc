@@ -24,10 +24,10 @@ Algoritmo gg
 		nanterior=nnormal
 		nnormal=nfibonacci
 	FinMientras	
-	si 0<=n
-		escribir"error";
-		
-	FinSi
+	si n<=0 Entonces
+				Escribir "fallo"
+				
+			FinSi
 			
 			
 			
