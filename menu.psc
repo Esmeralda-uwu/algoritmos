@@ -43,7 +43,7 @@ Algoritmo gg
 			
 			
 		2:
-			Algoritmo piramide
+			escribir "piramide"
 			
 	Definir  p,d,h, num Como Entero
 	Escribir "ingresa la letra o digito de lo que gustas que sea la piramide"
