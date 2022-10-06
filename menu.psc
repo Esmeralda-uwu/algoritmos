@@ -48,7 +48,18 @@ Algoritmo gg
 				definir simbolo Como Caracter
 				Escribir " define la altura de la piramide: "
 				leer altura;
-				ESCRIBIR " define un simbolo: "
+				si altura <= 0 Entonces
+					Escribir "cloque otro numero mayor a 0: " ;
+					
+					Escribir " define la altura de la piramide: "
+					leer altura;
+					si altura <= 0 Entonces
+						
+						Escribir "usted no entiende intentelo otra vez: " ;g
+						
+					FinSi
+				FinSi
+				Escribir  " define un simbolo: "
 				Leer simbolo;
 					Para base<-altura Hasta 1 Con Paso -1 Hacer
 					Para lugar<-1 Hasta base Con Paso 1 Hacer
