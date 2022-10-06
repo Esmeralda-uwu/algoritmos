@@ -43,24 +43,13 @@ Algoritmo gg
 			
 			
 		2:
-			Escribir "piramide";
-			
-			Algoritmo tt
-	Definir  p,d,h, num Como Entero
-	Escribir "ingresa la letra o digito de lo que gustas que sea la piramide"
-	leer f;
-	Escribir "ingresar la base de la piramide"
-	leer num
-	para p=num hasta 1 con paso -1 Hacer
-		para d=1 hasta p con paso 1 Hacer
-			Escribir  " " sin saltar
-		FinPara
-		para h=p hasta num con paso 1 Hacer
-			Escribir Sin Saltar " ", f;
-		FinPara
-		Escribir  " "
-	FinPara
-	
+			Algoritmo piramide
+				Definir A,S Como Entero
+				Escribir " define la altura de la piramide: "
+				leer A;
+				ESCRIBIR " define un caracter: "
+				Leer S;
+				
 FinAlgoritmo
 			
 			
