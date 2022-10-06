@@ -43,14 +43,28 @@ Algoritmo gg
 			
 			
 		2:
-			Algoritmo piramide
-				Definir A,S Como Entero
+			Proceso piramide
+				Definir altura,base,distancia,lugar Como Entero
+				definir simbolo Como Caracter
 				Escribir " define la altura de la piramide: "
-				leer A;
-				ESCRIBIR " define un caracter: "
-				Leer S;
+				leer altura;
+				ESCRIBIR " define un simbolo: "
+				Leer simbolo;
+					Para base<-altura Hasta 1 Con Paso -1 Hacer
+					Para lugar<-1 Hasta base Con Paso 1 Hacer
+						Escribir " " Sin Saltar
+					Fin Para
+					Para distancia<-base Hasta altura Con Paso 1 Hacer
+						Escribir Sin Saltar " ", simbolo;
+					Fin Para
+					Escribir " "
+				  Fin Para
 				
-FinAlgoritmo
+				
+				
+				
+FinProceso piramide
+
 			
 			
 			
